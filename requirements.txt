@@ -1,5 +1,8 @@
 fastapi==0.115.4
 uvicorn==0.32.0
+SQLAlchemy==2.0.36
+mysql-connector-python==9.1.0
 
 #Tests
 pytest==8.3.3
+
