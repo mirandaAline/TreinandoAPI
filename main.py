@@ -6,9 +6,6 @@ from contas_a_pagar_e_receber.routers import contas_a_pagar_e_receber_router
 
 app = FastAPI()
 
-@app.get("/")
-def oi() -> str:
-    return "Oi, eu sou aline!"
 
 app.include_router(contas_a_pagar_e_receber_router.router)
 
